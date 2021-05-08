@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Story>
+
+	<chapter0>
+
+		<Act0.5>
+			<part id='0'>
+			<characters first='NULL'>SkinBOSS03,Mother,SkinJoueur10</characters>
+			
+				<dialog id='1' type="narratif" music="music">
+				<line id='1' font="Sheet1">A long time ago, creatures named “Cubee” lived peacefully in their planet “CubeePlanet”. It was really calm but we saw prominently that something was missing.</line> 
+				<line id='2' font="Sheet2">The Cubee were bored to death. Nothing happened, in their daily lives they can’t find fun. They’re undoubtedly destined to be bored for the eternity.</line> 
+				<line id='3' font="Sheet3">However, a miracle appeared. An energy from a meteorite fall into their earth.
+It gives them an enormous amount of power into the “CubeePlanet”.</line>
+				<line id='4' font="Sheet3">Can you guess who sent it here ? I let you imagine…</line>
+				<line id='5' font="Sheet3">The Cubee were fascinated by this energy, they called it the “CubeeEnergy” in honour of their species.</line>
+				<line id='6' font="Sheet3">Thanks to the CubeeEnergy, the Cubee are now in possession of power, but they didn’t know how this power can help them to defeat their boredom.</line>
+		<nextdialog>2</nextdialog>
+				</dialog>
+				
+				<dialog id='2' type="narratif" music="music">
+				<line id='1' font="Sheet4">One day, two young Cubee play along and challenging each other in a race duel… it is then that one of them had the idea of reproduce this race duel in a large scale.</line>
+				<line id='2' font="Sheet4">The “CubeeRunning” has born. Dozens of Cubee participate at this sport, they’re called “CubeeRunner”.</line>				
+				<line id='3' font="Sheet5">10 years after, the first “CubeeRun Tournament” was organized.
+Until this day, a saying went into all the memories : 
+“If you’re bored, you can just run.”</line> 
+				<line id='4' font="Sheet5">A CubeeRunner will make a shift and dominate the CubeeRun Tournament, again and again, he’s the most strongest Cubee never know. He appeared in the 558th Edition of the Tournament.</line> 
+				<line id='5' font="Sheet5">They called him… Due to his armor... The IronCubee. And it’s important to notice that his armor didn’t have any scratch. IronCubee became a part of the CubeeRunning History.</line> 
+				<line id='6' font="Sheet6">But it’s not his history I will tell you. I’m gonna tell you the adventures of his son, CubeeRed…</line> 
+				<nextdialog>3</nextdialog>
+				</dialog>
+				
+				<dialog id='3' type="normal" font="Sheet8" music="music">
+				<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Dad, your last victory was awesome ! How do you get so fast… ?</line> 
+				<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>The secret of my power can’t be revealed easily, you have to deserve it.</line>
+				<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>All right, i’m gonna take the challenge. One day I’m gonna be stronger than you.</line> 
+				<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Aha, I’m looking for it my son. But before that, you have a long path to travel. Mine was very hard, yours will be lot more.</line> 
+				<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Time is not a problem.</line> 
+				<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='1'>Are you understanding what’s in front of you ? Your training will be very hard, sometimes you will want to give up but when you say you’re ready I will always be in your back and make you suffer if you think of giving up. </line> 
+				<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'> I need to become courageous… But the fact you’re my dad is enough to let me know that I can make it ! 
+So, Where we start ?</line> 
+				<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I’m waiting for you tomorrow at dawn. Be on time. And especially, you’ll have to convince your mother…</line> 
+				<nextdialog>4</nextdialog>
+				</dialog>
+				
+				<dialog id='4' type="normal" font="Sheet9" music="music">
+				<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Mama ! Today it’s my first training day with father !</line> 
+				<line id='2' Name='Mom' NameID='Mother' Animation='0'>Don’t say jokes, you’re too young. We talk about your father, the best of the best. His Training was not made for children.</line>
+				<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>I made a decision and I have to keep it. Believe in me mom, I’m gonna make it.</line> 
+				<line id='4' Name='Mom' NameID='Mother' Animation='2'>Reddy, I believe in you. But as your mother, I’m worried. Because I know how much it’s difficult. However, you make me think of your father when he was younger… I have to look at you like I did before.</line> 
+				<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Thanks Mom, I’ve waited so long for this moment…</line> 
+				<line id='6' Name='Mom' NameID='Mother' Animation='1'>I still listen to my son ! But if you want to give- </line> 
+				<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Don’t worry, “Give Up” is not in my dictionnary. Now it’s time...</line> 
+				<nextdialog>5</nextdialog>
+				</dialog>
+				
+				
+				<dialog id='5' type="end" font="Sheet3">
+				<!-- the dialog block of type "end". 
+				Simply blank, but required nonetheless in our logic and implementation -->
+				</dialog>
+				
+				
+				
+			</part>
+		</Act0.5>
+		
+		<Act1>
+			<part id='0'>
+			<characters first='SkinBOSS03'>Jeremiah,Alfred,William,SkinIA011,SkinIA012,SkinIA013,SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I say it one more time… If you want to stop</line>
+			<line id='2' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>I’m here, ready to become like you.</line> 
+			<line id='3' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Great, great. So, Did you had a good night ?</line>
+			<line id='4' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Yes !! A great one ! But why this question ?</line> 
+			<line id='5' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>That’s good… Very Good… I mean, now you can suffer.</line> 
+			<line id='6' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>Don’t worry, I will survive father.</line> 
+			<line id='7' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>If you say it, that’s fine. Let me see your determination.</line> 
+			<line id='8' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='0'>So, what have you done for my training ?</line> 
+			<line id='9' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I think big you know. You’ll not the only one. In fact, I have a lot of disciples. I call at my butlers to help you in your first time.</line> 
+			<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='Alfred' NameID='Alfred' Animation='4'>Hi Boy, your dad asked us to serve you at your training.</line>
+			<line id='2' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>So... my dad has butlers, so cool ! I hope you will be a big help for me !</line> 
+			<line id='3' Name='Jeremiah' NameID='Jeremiah' Animation='1'>Count on us Master.</line> 
+			<line id='4' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>“Master” it’s too much for me</line> 
+			<line id='5' Name='Jeremiah' NameID='Jeremiah' Animation='2'>The son of our Master is our Master too. It’s obvious.</line> 
+			<line id='6' Name='Alfred' NameID='Alfred' Animation='0'>Let him call you like that… He’s a bit too serious… But he’s right.</line> 
+			<line id='7' Name=' YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>I’m not so used to but It’ll do.</line>
+			<line id='8' Name='William' NameID='William' Animation='2'>Puff, I’m not gonna call him like Sir IronCubee. He’s my only master.</line> 
+			<line id='9' Name='Alfred' NameID='Alfred' Animation='2'>Boy, don’t worry, he’ll keep his duty to help you.</line> 
+			<line id='10' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>It doesn’t matter, I understand… Plus, you can call me like you want, I don’t mind.</line> 
+			<line id='11' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>Alfred, Jeremiah, William… In place !</line> 
+			<line id='12' Name='Alfred' NameID='Alfred' Animation='2'>Yes sir !</line> 
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>What’s happening ?</line>
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Be prepared, here your opponents of the day. They’re not the best, but they’re the most to grind and work hard. You should take their example if you want to follow my path.</line> 
+			<line id='3' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>Nice to meet you… I’m glad to see the son of IronCubee…</line> 
+			<line id='4' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Hum… Hi !!</line> 
+			<line id='5' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>He’s a bit stressed, we can’t let a little Newbie defeat us.</line> 
+			<line id='6' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Aha, let’s see…</line>
+			<line id='7' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>Thanks to our training, we will beat you down.</line>
+			<line id='8' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Certainly I’m a Newbie but I’m sure of one thing. I’m as determined as you.</line> 
+			<line id='9' Name='CubeePinkTwo' NameID='SkinIA012' Animation='0'>Ahahaha, he makes me laugh. As determined as us, he said. You must be joking little Cubee !</line>
+			<line id='10' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>I can’t wait, let’s race !</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+
+			
+			<dialog id='4' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Well, well let’s get started. Before you can take a real race, I’ll explain you the basics…</line> 
+			<line id='2' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>You’ll see, there is nothing complicated.</line> 
+			<line id='3' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>As you know, Us, Cubee have two jumps.</line> 
+			<line id='4' Name='???' NameID='???' Animation='0'>In fact, to jump you need to tap in the side rectangles. Blue for Little and Red for Big.</line> 
+			<line id='5' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Then, The Cubee have in them a specific power. Some have awakened their power, others not yet… But keep in mind, to participate in the CubeeRun Tournament you have to master your power.</line>
+			<line id='6' Name='CubeePinkTwo' NameID='SkinIA012' Animation='0'>Yeah, yeah, for now among the disciples of IronCubee, just one have succeeded to awake his power. This Cubee is CubeeYellowTwo.</line> 
+			<line id='7' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>But while the training he will not use his power.</line> 
+			<line id='8' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='3'>I didn’t know it was that hard… I believed that the others Cubee was like me…</line> 
+			<line id='9' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Yes it’s really surprising ! You’ve awakened you power very early. You have to use your DASH and TELEPORTATION to win.</line> 
+			<line id='10' Name='???' NameID='???' Animation='1'>TELEPORTATION and DASH are very similar in controls. To use one of them, you need to hold rectangles in the center and drag in direction you want and finally release your finger to TELEPORT or DASH.</line>
+			<line id='11' Name='???' NameID='???' Animation='1'>To Know : You can DASH and TELEPORT only one time in the air. You have to touch the ground or a wall to reactivate your power. You can combo the two in the air.</line>
+			<line id='12' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='3'>But I will have a big advantage against us !</line> 
+			<line id='13' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>The fact that you don’t know the circuit will slow you. Even with your power, you’ll have to analyze your environment to escape the traps.</line> 
+			<line id='14' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Before the serious thing, can you show him what is a real race ?</line> 
+			<line id='15' Name='CubeePinkTwo' NameID='SkinIA012' Animation='0'>Of course, with pleasure !</line> 
+			<nextdialog>5</nextdialog>
+			</dialog>
+			
+			
+			<dialog id='5' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>…</line>
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Aha, did you’re starting feeling uneasy ?</line> 
+			<line id='3' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Finally, I’m a bit scared…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='3'>Son, a CubeeRunner do not have to be afraid of DEETH.</line> 
+			<line id='5' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='3'>But why the Cubee come back at the starter ?</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>The CubeeRunning, with the CubeeEnergy, permit us to come back to life. BUT it’s only work in a race, only and only in this. Cubee are not immortal after all.</line> 
+			<line id='7' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>But, but… they feel pain after all…</line>
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>The pain will make you stronger. This is why it took me a long time to start my training.</line> 
+			<line id='9' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='1'> It really scares me…</line> 
+			<line id='10' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>It sounds bad, because now you can’t go back my son.</line> 
+			<line id='11' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>I know…</line>
+			<line id='12' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Courage is not a question of losing fear. Courage it’s when you have that fear in your heart but still walk toward and face them.</line> 
+			<line id='13' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>CubeeRed, you’ll get used to it. Even for me it doesn’t mean anything.</line> 
+			<line id='14' Name='IronCubee' NameID='SkinBOSS03' Animation='0'> I remember in her beginning, she was crying like a baby after her first DEETH. Ah... I’m so nostalgic.</line>
+			<line id='15' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>Master !!!</line> 
+			<line id='16' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Yes !! I need to make a move even if I’m scared !</line>
+			<line id='17' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I wish you good luck my son. </line> 
+			<line id='18' Name='CubeePinkTwo' NameID='SkinIA012' Animation='0'> There it is… Let’s race !</line> 
+			<line id='19' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>I’m waiting for you, may the best win.</line> 
+			<nextdialog>6</nextdialog>
+			</dialog>
+			
+			<dialog id='6' type="end" font="Sheet18">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+
+		</part>
+		
+			<part id='2'>
+			<characters first='SkinJoueur10'>SkinIA011,SkinIA012,SkinIA013,SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Yes !! I finally won !</line>
+			<line id='2' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>Good game. It took you some attempts to win against us.</line> 
+			<line id='3' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>My training was not enough. I need to grind more and more.</line> 
+			<line id='4' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>With the DASH and TELEPORTATION, I’m more fast. But even with my power, you still stay tough.</line>
+			<line id='5' Name='CubeePinkTwo' NameID='SkinIA012' Animation='0'> I lose but I keep smiling. A failure doesn’t still one if we get up and use it like a fuel. I’m willing to fight against you again in the future aha !</line> 
+			<line id='6' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>I face you when you want !</line> 
+			<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="normal" font="Sheet18" music="music">
+			<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>How was your training ?</line>
+			<line id='2' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>Really tiring… And DEETH was always in my back. It was so tough !</line> 
+			<line id='3' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>If you’re that tired just in the beginning, will you keep pace ?</line> 
+			<line id='4' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>We are just the small fry because we arrived a short while ago. The next will be very hard little cubee.</line>
+			<line id='5' Name='YoungCubeeRed' NameID='SkinJoueur10' Animation='0'>It’s really intriguing, I need to keep it up and face forward.</line>			
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Be prepared for the worst, because if you don’t follow, you’ll give up really soon.</line> 
+			<nextdialog>3</nextdialog>
+			</dialog>
+			<dialog id='3' type="end" font="Sheet18">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+			
+			
+			
+		</part>
+		</Act1>
+
+		<Act2>
+		<part id='0'>
+		<characters first='Jeremiah'>Jeremiah,William,SkinJoueur10,SkinIA021,SkinIA022,SkinIA023,Mother</characters>
+		
+		<dialog id='1' type="normal" font="Sheet19" music="music">
+		<line id='1' Name='Jeremiah' NameID='Jeremiah' Animation='1'>You take a long time to beat the CubeePink, one month is not anything, but you did it.Congrats!</line>
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I couldn’t do anything without your help! Thank you!!</line> 
+		<line id='3' Name='Jeremiah' NameID='Jeremiah' Animation='0'>Don’t, it’s your determination which made who you are!</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I have to not relax in my efforts...</line> 
+		<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>And I don’t see my father today, where is he?</line> 
+		<line id='6' Name='Jeremiah' NameID='Jeremiah' Animation='0'>Your father went to visit Valkyrie, an old friend for few days with Alfred. He made us responsible for taking care of his training.</line> 
+		<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>When he comes back, he will see that I’ll be strong.</line> 
+		<line id='8' Name='Jeremiah' NameID='Jeremiah' Animation='0'>Like father, like son... You are determined...</line> 
+		<line id='9' Name='William' NameID='William' Animation='2'>Pathetic... You just beat a beginner, and you already feel like you are strong... Kid, don’t get enthusiastic too quickly...</line> 
+		<line id='10' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>You’re wrong, CubeePink are impressive enemies. Stop saying everybody is useless, believe me, I had to facing up to them before.</line> 
+		<line id='11' Name='William' NameID='William' Animation='2'>You’re still young, you don”t know anything about CubeeRunning... Don’t think wining 2/3 races will make you strong.</line> 
+		<line id='12' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I never say that, but you will see, one day I will surpass my father and you will look at me differently.</line> 
+		<nextdialog>2</nextdialog>
+		</dialog>
+		
+		<dialog id='2' type="normal" font="Sheet19" music="music">
+		<line id='1' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>Ahahaha!!!</line>
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Who’s that...?</line> 
+		<line id='3' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>So you are the new one... And you want to beat our master...</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Everyone can be strong with training...</line> 
+		<line id='5' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>Remember that it is not because you are his son that it means that you are strong as he is.</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I know, only my raining will make me strong as he is. You are not going to teach me that...</line> 
+		<line id='7' Name='William' NameID='William' Animation='2'>At least, he deserves to be student.</line> 
+		<line id='8' Name='Jeremiah' NameID='Jeremiah' Animation='2'>You are mean to him... I am with you!!</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Can we race just the two of us?</line> 
+		<line id='10' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>As you want, but don’t cry after the race!</line> 
+		<line id='11' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>3,2 , 1... Go!</line> 
+		<nextdialog>3</nextdialog>
+		</dialog>
+		
+		<dialog id='3' type="normal" font="Sheet19" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>... How is it possible? I follow all the instructions, but I wasn’t fast...</line>
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>I lost...</line> 
+		<line id='3' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>I told you, you’re too weak... And here I was alone, but if CubeeGreenOne and CubeeGreenThree were here, you wouldn’t take this defeat...</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>How is it possible...? I couldn’t do anything. I better give up...</line> 
+		<line id='5' Name='Jeremiah' NameID='Jeremiah' Animation='4'>Don’t stop now, you’re doing fine! Your father told you... It is not a defeat which will get you flustered...</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='2'>Jeremiah, you’re kind. But he’s right, I’m not my father, maybe the CubeeRunning is not for me... He beat me even he doesn’t have his power...</line> 
+		<line id='7' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>It’s disappointing; you are as pathetic as this cubee before...</line> 
+		<nextdialog>4</nextdialog>
+		</dialog>
+
+		<dialog id='4' type="narratif" music="music">
+		<line id='1' font="Sheet11">This heavy defeat against CubeeGreenTwo has devastated CubeeRed, he has no more strength to continue his training...</line> 
+		<line id='2' font="Sheet11">Then he came back home after two months of training. His mother thought he winds up his training, but she was wrong. CubeeRed, couldn’t talk to her...</line> 
+		<line id='3' font="Sheet11">CubeeRed moped around his room for days... He stops eating in the living room... His mother tried to comfort him...</line> 
+		<nextdialog>5</nextdialog>
+		</dialog>
+		
+		<dialog id='5' type="normal" font="Sheet10" music="music">
+		<line id='1' Name='Mom' NameID='Mother' Animation='3'>Redy, stir yourself, I know you feel too weak, but you can’t stay like that...</line>
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='2'>Sorry mom, I don’t want to train anymore...</line> 
+		<line id='3' Name='Mom' NameID='Mother' Animation='4'>Don’t say that, it is not just a defeat which will stop you.</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='2'>It is not because of the defeat... I knew a lot of defeats at the beginning of my training... Then I mastered my power, and I was confident... But I coudn’t do anything against CubeeGreenTwo, he exhausted me...</line> 
+		<line id='5' Name='Mom' NameID='Mother' Animation='0'>A heavy defeat doesn’t mean it’s over... Listen, when I practiced the CubeeRunning, I went through a heavy defeat and guess who the winner was? Yes, it was your father.</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>Are you telling me that when you were young, you were a CubeeRunner...? And you faced dad?</line> 
+		<line id='7' Name='Mom' NameID='Mother' Animation='1'>Sure. I was a famous CubeeRunner... I was training your dad for the CubeeRunning. If I didn’t take care of him, he never became as strong as he is today. I was better than him, but he ended up beat me...</line> 
+		<line id='8' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>Waaaaah I didn’t know that, you should’ve told me before! And why did you stop?</line> 
+		<line id='9' Name='Mom' NameID='Mother' Animation='1'>Guess, you were born; I had to stop to take care of you...</line> 
+		<line id='10' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>You should’ve done both!</line> 
+		<line id='11' Name='Mom' NameID='Mother' Animation='3'>You’re kidding! You were running everywhere; I had to keep an eye on you! You have the race in you...</line>
+		<line id='12' Name='Mom' NameID='Mother' Animation='3'>A failure like that is nothing, when I lose against your father, I was keeping training even I didn’t beat him anymore! Don’t give up! Train until the end!</line>
+		<line id='13' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>You’re right! I must go back to training... But before race against the CubeeGreens I have to train alone</line> 
+		<line id='14' Name='Mom' NameID='Mother' Animation='1'>Not sure. I called the CubeePink, you probably beat them, but rain with a partner is always better.</line> 
+		<nextdialog>6</nextdialog>
+		</dialog>
+		
+		
+		<dialog id='6' type="normal" font="Sheet19" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I’m finally ready to face you...</line>
+		<line id='2' Name='CubeeGreenOne' NameID='SkinIA021' Animation='0'>You mean... Face us.</line> 
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>It is the same! One or three, I am ready to beat you this time.</line> 
+		<line id='4' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>Ooh! You’re coming again? I hope you know what you are doing. Maybe you will regret that.</line> 
+		<line id='5' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>Sorry, he’s hard with you. You’re not the first cubee he was trying to scare off... He was not always like that, anyway. I was exciting to face you, son of the renowned IronCubee.</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Expectation grant...</line> 
+		<nextdialog>7</nextdialog>
+		</dialog>	
+		<dialog id='7' type="end" font="Sheet19">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+			
+		</part>
+		
+		<part id='2'>
+			<characters first='SkinJoueur10'>SkinJoueur10,William,SkinIA022,SkinIA023</characters>
+		
+			<dialog id='1' type="normal" font="Sheet19" music="music">
+			<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>How was I?</line>
+			<line id='2' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>Congrats! You improved a lot. First time we meet, you already beat me...</line> 
+			<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Thank you, but the CubeePink helped me a lot. I’m lucky to wake my power up early...</line> 
+			<line id='4' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>It’s true that with our power, we are stronger, but they aren’t the chore of the race.</line> 
+			<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Right, I do not have to forget the main thing.</line> 
+			<line id='6' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>No, no, no, it is not possible. Why do you come back, whereas he doesn’t...?</line> 
+			<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>What do you mean with “he”?</line> 
+			<line id='8' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>It doesn’t matter; it is not your fault...</line> 
+			<line id='9' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>is he then? I want to know...</line> 
+			<line id='10' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>We don’t need to talk about it, he is just a coward.</line> 
+			<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="normal" font="Sheet19" music="music">
+			<line id='1' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>Years ago, IronCubee had three students, who came almost at the same time.</line>
+			<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>And what happened to them...?</line> 
+			<line id='3' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>One of them gone because IronCubee doesn’t have anything to teach to him anymore, another stop the CubeeRunning to begin an adventure more fascinating to him. There was only CubeeBlue left.</line> 
+			<line id='4' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>CubeeGreenTwo used to train with CubeeBlue. CubeeBlue though he could wake his power up, but learn that he was decifient, and that he could never use it.</line> 
+			<line id='5' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>CubeeGreenTwo suggest doing a game in order to lift his spirits, and was convinced that it was screw-up, and that CubeeBlue just needed to train,to manage and use his power.</line> 
+			<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>What happened then...?</line> 
+			<line id='7' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>I won, and I was so proud, but he doesn’t want to race anymore, and never came back.</line> 
+			<line id='8' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I’m sorry...</line> 
+			<line id='9' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>You don’t need to. Today, I lost, but I’m not a coward, I will not give up justbecause of that as he did.</line>
+			<line id='10' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>Next time we race, I swear, it will be at the CubeeRunTournament... And I will be able to use my power...</line> 
+			<line id='11' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>That’ll be the day! I will wait for you.</line> 
+			<line id='12' Name='William' NameID='William' Animation='2'>CubeeRed, you’re better than I thought, but you don’t go up in my estimation anyway.</line> 
+			<line id='13' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I know one day I will show you...</line> 
+			<line id='14' Name='William' NameID='William' Animation='0'>We will see...</line> 
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="end" font="Sheet19">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+		
+		</part>
+		</Act2>
+
+		<Act3>
+		<part id='0'>
+		<characters first='NULL'>SkinIA021,SkinIA022,SkinIA023,SkinIA011,SkinIA012,SkinIA013,SkinBOSS03,SkinJoueur10</characters>
+		
+		<dialog id='1' type="narratif" music="music">
+		<line id='1' font='Sheet10'>Three month ago, CubeeRed started his training.</line>
+		<line id='2' font='Sheet10'>He is now become stronger, and thanks to his powers, succeeded to defeat CubeePink and Green in a very short time.</line> 
+		<line id='3' font='Sheet10'>IronCubee had to left the city for a couple of days only, but his stay lasted actually two month….  </line> 
+		<line id='4' font='Sheet12'>During the night, CubeeRed, The CubeeGreen and CubeePink received a letter from IronCubee.</line> 
+		<line id='5' font='Sheet12'>He announced his return, tomorrow in the morning. And invite all of them in a meeting at 10AM.</line> 
+		<nextdialog>2</nextdialog>
+		</dialog>
+		
+		<dialog id='2' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Why everybody is here… You all received my dad’s letter too ?</line> 
+		<line id='2' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>He summoned all of us, I wonder what are his plans....</line>
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Well, He really took his time…</line> 
+		<line id='4' Name='CubeeGreenOne' NameID='SkinIA011' Animation='0'>Maybe he had some problems. He shouldn’t be too long now.</line> 
+		<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>Oh, here he comes !</line> 
+		<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Sorry for my late… Serious things begin now…</line> 
+		<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>You could warn us that your stay will take so much time…</line> 
+		<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I wanted to do it, but I couldn’t send letters where I was. But here I am now ! So, have you improved during this two past month ?</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>A lot, I defeated all the CubeeGreen while you were away. It was really hard.</line> 
+		<line id='10' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>You succeed to beat them in a really short time, I am proud of you.</line> 
+		<nextdialog>3</nextdialog>
+		</dialog>
+		
+		<dialog id='3' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>Master, are we still your disciples ? I do not consider me like this anymore. Three month ago, you asked us to help CubeeRed to learn how to develop his powers... </line> 
+		<line id='2' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>But today, it is like if we didn’t exist anymore… You keep thinking of CubeeRed all the time…. It’s not because he is your son, that you have to abandon us….</line>
+		<line id='3' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>Listen, three months ago, I ask you to practice with my son, but I didn’t asked just for his own interest, I was also thinking about yours. You became even better now !</line> 
+		<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>During the training, I do not give him a preferential treatment only because he’s my son, here I consider him as a disciple.</line> 
+		<line id='5' Name='IronCubee' NameID='SkinBOSS03' Animation='1'>I know that you must be frustrated, seeing my son’s power growing so fast. But you have to remember that each Cubee is different. Some of them need to practice more than the others. </line> 
+		<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>CubeeRed has maybe defeated you, but I am sure that you can do it as well. You have to be patient because when your powers will awake, You couldn’t deny your strength.</line> 
+		<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>I didn’t know that you were upset to see me improve so fast…</line> 
+		<line id='8' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>I have to admit that everyone thought like CubeeGreenTwo, but none of us wanted to say it… You have to understand, we’ve been training for so much longer than you, and seeing you improve so fast make us frustrated of our powerlessness…</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I develop my power very young, so I don’t know what it feels like to practice without it…</line> 
+		<line id='10' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Keep in mind that your powers are just a bonus in the CubeeRunning. The CubeeRunning is so much more important that some Cubee fighting with each other… You will understand it later !</line>
+		<line id='11' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>Yes !!</line> 
+		<line id='12' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>You are right, Sorry for being rude with you CubeeRed…</line> 
+		<line id='13' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Don’t worry, I totally understand… But I’m surprised to see you apologize !</line> 
+		<line id='14' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>You don’t see me like this because it’s not what I usually do… But it can sometimes happens… on extreme situation…</line> 
+		<line id='15' Name='CubeeGreenThree' NameID='SkinIA023' Animation='0'>Oh you almost seem to appreciate him !</line> 
+		<line id='16' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Don’t tell him this, or he is going to be upset again…</line> 
+		<line id='17' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>Oh just stop talking !</line> 
+		<nextdialog>4</nextdialog>
+		</dialog>
+		
+		
+		<dialog id='4' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>well, with all this story we forgot the meeting. Why did you summon us ?</line> 
+		<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I just wanted to see you of course.</line>
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Oh… Okay…</line> 
+		<line id='4' Name='CubeeGreenOne' NameID='SkinIA021' Animation='0'>CubeeRed, don’t be so fool, You are going to down in my estimation.</line> 
+		<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>It’s a joke of course ! I knew that there was something else… </line> 
+		<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>That trip reminded me, I never run against you, except for CubeeYellowThree.</line> 
+		<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>You want us to fight you ? You are going to annihilate us, even with my powers.</line> 
+		<line id='8' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>I was waiting for that since a long time !! Don’t be so defeatist CubeeRed.</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>But he is my father, how are we supposed to beat him ? We are still novice…</line> 
+		<line id='10' Name='CubeeGreenTwo' NameID='SkinBOSS03' Animation='0'>But he never said that is going to use all his strength.</line>
+		<line id='11' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>It’s true, maybe we have a chance !</line> 
+		<line id='12' Name='CubeePinkTwo' NameID='SkinIA022' Animation='0'>If he uses his power or not, it doesn’t matter. We get stronger only with powerful opponent. If we win or if we lose, We are going to get better anyway.</line> 
+		<nextdialog>5</nextdialog>
+		</dialog>
+		
+		<dialog id='5' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>You are very perceptive, I made a good choice in taking you as my disciples. Guess  the percentage of my strength that I’ll use against you ?</line> 
+		<line id='2' Name='CubeePinkThree' NameID='SkinIA013' Animation='0'>I would say, 70 percent.</line> 
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>This is too much, 50 is more plausible.</line> 
+		<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Hahaha ! You make me laugh ! For you, I will only use 10 percent.</line> 
+		<line id='5' Name='CubeeGreenTwo' NameID='SkinIA022' Animation='0'>This is going to be easy then.</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Yeah, 10 percent, it’s nothing.</line> 
+		<line id='7' Name='CubeePinkOne' NameID='SkinIA011' Animation='0'>We can do it guys !</line> 
+		<nextdialog>6</nextdialog>
+		</dialog>
+		
+		<dialog id='6' type="narratif" music="music">
+		<line id='1' font='Sheet20'>But they were all wrong, CubeeRed and the disciples were smashed by IronCubee, with only 10 percent of his power.</line>
+		<line id='2' font='Sheet20'>They were so far from the truth, They couldn’t believe it.</line> 
+		<nextdialog>7</nextdialog>
+		</dialog>
+		
+		<dialog id='7' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>How this is even possible, with 10 percent…</line> 
+		<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>You have to know that it’s not impossible to beat me. I win most of the time, but I also lost a few times.</line> 
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>We have to be a genius to beat you.</line> 
+		<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='3'>Don’t say that, particularly you. You can teleport you, so you can avoid my attacks. You just have to use your power precisely and in a intelligent way.</line> 
+		<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Understood, Let’s run again, this time I will avoid your attacks ! </line> 
+		<nextdialog>8</nextdialog>
+		</dialog>
+		
+		
+		<dialog id='8'  font="Sheet20" type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+
+		</part>
+		
+		<part id='2'>
+		<characters first='SkinJoueur10'>SkinBOSS03,SkinJoueur10,William</characters>
+
+		<dialog id='1' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>See, I told you, you were capable of it.</line>
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I will not get use to it, It’s so cool when I teleport myself…</line> 
+		<line id='3' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Precision, It’s the key to win.</line>
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I wonder what would look like our training's if you increased your strength of 10 or 20 percent…</line> 
+		<line id='5' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Well, I guess that one day, you will find out. Maybe that someday, I will face you at the top of my power !</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>It would be awesome ! Especially if I could beat you !</line> 
+		<line id='7' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Right ! But without boasting myself, You will have to enormously practice before even try to face me !</line> 
+		<line id='8' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'> Yes it’s pretty clear, That’s why I will practice vigorously on each training ! Even if it takes me years !</line> 
+		<line id='9' Name='IronCubee' NameID='SkinBOSS03' Animation='1'> I see that you are full of enthusiasm my son, I am proud of you. The true CubeeRunner’s power comes from his strong spirit !</line> 
+		<nextdialog>2</nextdialog>
+		</dialog>
+		
+		<dialog id='2' type="normal" font="Sheet20" music="music">
+		<line id='1' Name='CubeeRed' NameID='CubeeRed' Animation='0'>Well done ! You beat my master congratulations !</line> 
+		<line id='2' Name='William' NameID='William' Animation='3'>Yeah finally !</line>
+		<line id='3' Name='CubeeRed' NameID='CubeeRed' Animation='0'>With you, it’s different, like you are his son you have to practice more, otherwise people will think that it’s hereditary. And it wouldn’t be important anymore…</line> 
+		<line id='4' Name='William' NameID='William' Animation='3'>Even if my father wasn’t IronCubee, I beat him anyway !</line> 
+		<nextdialog>3</nextdialog>
+		</dialog>
+		
+		<dialog id='3'  font="Sheet20" type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+		
+		</part>
+		</Act3>
+
+		<Act4>
+		<part id='0'>
+		<characters first='SkinBOSS03'>SkinIA041,SkinIA042,SkinBOSS03,SkinJoueur10</characters>
+		
+		<dialog id='1' type="normal" font="Sheet21" music="music">
+		<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Hello son! I hope you rest well, because your training is going to be particularly rough.</line> 
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Slept well, a night training will change habit.</line>
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Difficulty does not scare me, I will face the toughest cubee to increase my power.</line>
+		<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Very well, let me to introduce your new opponent, the CubeeYellow ! They are my strongest disciple,  you will have to redouble efforts to defeat them.</line> 
+		<line id='5' Name='CubeeYellowOne' NameID='SkinIA041' Animation='0'>So you are the son of our master. I would like to say that is an honor to meet you, I would confess that I expected … better.</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Never rely on appearance! Im much stronger.</line> 
+		<line id='7' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>Does not fit into his game, you will do too much pleasure. Let him chat in his corner, he will calm down!
+Pleased to meet you, I can not wait to see what you’re worth.</line> 
+		<line id='8' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>You will, see gonna impress you.</line> 
+		<line id='9' Name='CubbeYellowOne' NameID='SkinIA041' Animation='0'>Pff, does not take this confident air kid, you can not even get me, does not even to compete CubeeYellowTwo, he is the best between us.</line> 
+		<line id='10' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>Ohh, so much flattery it does not look like you CubeeYellowOne! Well, let’s say I had a good master, And I practiced enormously.</line> 
+		<line id='11' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Very good, I can’t wait! Let’s run!</line> 
+		<nextdialog>2</nextdialog>
+		</dialog>
+		
+		<dialog id='2' type="normal" font="Sheet21" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>But … But …. How is this possible… I used my maximal power to beat you… and CubeeYellowTwo, you did not even use your power… Not a single time… I thought I was stronger than that.</line> 
+		<line id='2' Name='CubeeYellowOne' NameID='SkinIA041' Animation='0'>HA, what did I tell you?
+You do not had his level, you were seriously expecting to defeat him.</line> 
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>I… I thought if I use all my power I will make it…</line> 
+		<line id='4' Name='CubeeYellowOne' NameID='SkinIA041' Animation='0'>Pff, ridiculous...</line> 
+		<line id='5' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>That’s enough CubeeYellowOne, you are his teacher, not his tormentor. Our master entrust you the training of his son to learn him something, not for lower him without lesson behind, get it?</line> 
+		<line id='6' Name='CubeeYellowOne' NameID='SkinIA041' Animation='0'>Yes…</line> 
+		<line id='7' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>Good. CubeeRed, this is not the moment to dispair, our lesson is not finish yet.</line> 
+		<line id='8' Name='CubeeRed' NameID='SkinJoueur10' Animation='2'>How can it not be completed?
+Until now, I did not need to use all power to beat others disciple.</line>
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>Explain me how I can compete with you, even at full power, I get defeated so easily?  I can do more than maximum.</line>
+		<nextdialog>3</nextdialog>
+		</dialog>
+
+		<dialog id='3' type="normal" font="Sheet21" music="music">
+		<line id='1' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>There is your problem CubeeRed. Your power.</line> 		
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>I don’t get it.</line> 
+		<line id='3' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'> You are fundamentally  convinced that the power is the key to success. With power, you can  beat anybody.</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>But, it's the principle of all CubeeRunner no? The greater our power is, best we are.</line> 
+		<line id='5' Name='CubbeYellowTwo' NameID='SkinIA042' Animation='0'>The power counts, but it’s only a tools, a tools that you manipulate, until using perfectly.</line> 
+		<line id='6' Name='CubbeYellowTwo' NameID='SkinIA042' Animation='0'>Except that the tool must be approached from a different angle, test it and use it in several ways, until you find some combination that works. You do not exploit all the potential of your power.</line> 
+		<line id='7' Name='CubbeYellowTwo' NameID='SkinIA042' Animation='0'>You take it as it is, without even trying to understand, I did not use my power, not only because you were not ready for it, but also to make you understand that it is not because you have awakened, it is necessarily acquired.</line> 
+		<line id='8' Name='CubbeYellowTwo' NameID='SkinIA042' Animation='0'>On the contrary, it is now that serious things begin, it is now that you must redouble effort. More you increase your power, harder it will be to go  to the next level.</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>… I had never seen things in that angle… You really opened my mind! I tend to forget that I just entered the world of CubeeRunner.</line> 
+		<line id='10' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I should have expected that the awakening of my power, is not the only thing that make me a  good Runner. I must think, and no longer just act.</line> 
+		<line id='11' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'> The race required not only the speed, but also reflection. I need to study and obstacle and opponent, to turn them to my advantage.</line> 
+		<line id='12' Name='CubbeYellowTwo' NameID='SkinIA042' Animation='0'>Well I see the lesson is beginning to think in. Are you ready to retry our confrontation?</line> 
+		<line id='13' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Yes!!</line> 
+		<nextdialog>4</nextdialog>
+		</dialog>
+		
+		
+		
+			
+		<dialog id='4' font="Sheet21" type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+
+		</part>
+		
+		<part id='2'>
+		<characters first='SkinJoueur10'>SkinIA041,SkinIA042,SkinIA043,SkinBOSS03,SkinJoueur10</characters>
+		
+		<dialog id='1' type="normal" font="Sheet21" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'> YES!!! SUCCESSFUL!! I thought I could never do it.</line> 
+		<line id='2' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>Haha, congratulation to you CubeeRed! I knew you had the potential to defeat us. I see that you have used several approaches on the manipulation of your power, you did not just go in the pile.</line>
+		<line id='3' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>you did not beat me in pure speed, you used feints and shortcut, that I haven’t seen coming. And you knew to use your power  when you had to, and not because you knew how to use it. Good game!</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Thank you professor! It was a real pleasure to face you! I learned a lot with you today. And I will remember this lesson my entire life.</line> 
+		<line id='5' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>I only did my duty. Just as my master did it for me. Did you figure I was in the same situation as you when I started? I felt special, because I was one of the few to have awakened my power, moreover very young.</line> 
+		<line id='6' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>I thought I was invincible, until one day I was beaten by your father. He taught me humility and anticipation. It is thanks to him that I am here today.</line> 
+		<line id='7' Name='CubeeYellowTwo' NameID='SkinIA042' Animation='0'>And I’m sure you’ll do sparking later. After all, you have that in your blood. Isn’t it CubeeYellowOne ?</line> 
+		<line id='8' Name='CubbeYellowOne' NameID='SkinIA041' Animation='0'>Yes… I must confess that you have a bit impress me… But a little bit huh. Do not take the big head… I train even harder, and I will retry a race again you.</line> 
+		<line id='10' Name='CubeeYellowThree' NameID='SkinIA043' Animation='0'>This is all order … I do not speak much but I will say two words to congratulate you. </line> 
+		<line id='11' Name='CubeeYellowThree' NameID='SkinIA043' Animation='0'>Nice race, you did good job!!</line> 
+		<line id='12' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Here is a very good training my disciples! I am extremely proud of you! But do not rest on your laurels son, you still have much to learn.</line> 
+		<line id='13' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I know it now! I shall be even more attentive to the lesson I shall learn.</line> 
+		<nextdialog>2</nextdialog>
+		</dialog>
+		
+		
+		<dialog id='2' font="Sheet21" type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+			
+			
+			
+		</part>
+		</Act4>
+
+		<Act5>
+		<part id='0'>
+		
+		<characters first='NULL'>SkinBOSS03,SkinJoueur10</characters>
+		
+		<dialog id='1' type="narratif" music="music">
+		<line id='1' font="Sheet10">It’s just one year ago CubeeRed started his hard training to become a CubeeRunner.</line> 
+		<line id='2' font="Sheet10">In one year thinks happened, CubeeRed progress at a rapid rate.</line> 
+		<line id='3' font="Sheet10">This year, The CubeeRun Tournament gonna start soon, IronCubee will go tomorrow for the CubeeRun Tournament.</line>
+		<line id='4' font="Sheet22">We are in the middle of the night, CubeeRed can’t sleep, he decided to train.</line>
+		<nextdialog>2</nextdialog>
+		</dialog>
+			
+		<dialog id='2' type="normal" font="Sheet22" music="music">
+		<line id='1' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I knew you would come.</line>
+		<line id='2' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>What are you doing here, you can not sleep too?</line> 
+		<line id='3' Name='IronCubee' NameID='SkinBOSS03' Animation='1'>It’s always the same, every eve of my departure for CubeeRun Tournament I can’t sleep adrenaline does not keep me in place.</line> 
+		<line id='4' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>Wooh, you are hurry to face CubeeRunner who come all around the world…  I am sure you will win once again.</line> 
+		<line id='5' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Not necessarily, every year new CubeeRunner take part in CubeeRun Tournament. The level is high, I even had difficulty against some cubee.</line> 
+		<line id='6' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>So cooool !!! I would like to participate so much… Would like to face the best cubee of the world.</line> 
+		<line id='7' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>You have some courage, it’s good you need it to participate.</line> 
+		<line id='8' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Maybe next year I could come with you?</line> 
+		<line id='9' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Maybe yes but do not be so sure of yourself.</line> 
+		<line id='10' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Why not… You don’t belive me, I have grown enormously since I started.</line> 
+		<nextdialog>3</nextdialog>
+		</dialog>
+				
+		<dialog id='3' type="normal" font="Sheet23" music="music">
+		<line id='11' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>Fine if you say so, I see no reason to decline a fight against me.</line> 
+		<line id='12' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>A fight against you does not refuse, It’s so fun to fight you. Are you sure fighting before CubeeRun Tournament won’t exhaust you?</line> 
+		<line id='13' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>Don’t worry about me, you must worry about yourself.</line> 
+		<line id='14' Name='IronCubee' NameID='SkinBOSS03' Animation='3'>Get ready to going down!!</line> 
+		<line id='15' Name='IronCubee' NameID='SkinBOSS03' Animation='4'>Maximum power activate!!</line> 
+		<line id='16' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Amazing your armor is even more stunning.</line> 
+		<line id='17' Name='IronCubee' NameID='SkinBOSS03' Animation='4'>Let’s see if  you became that strong.</line> 
+		<nextdialog>4</nextdialog>
+		</dialog>
+						
+		<dialog id='4' font="Sheet23" type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+
+		</part>
+		
+		<part id='2'>
+		
+		<characters first='SkinJoueur10'>SkinBOSS03,SkinJoueur10</characters>
+		<dialog id='1' type="normal" font="Sheet22" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Great!! I beat you the so-called the invicible.</line> 
+		<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>So how difficult you find the race?</line>
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>It was really hard!! You are not the IronCubee for nothing.</line> 
+		<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>Ahaha!! So if you had difficulty against me how you could win the CubeeRun Tournament.</line> 
+		<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>Wait… What do you mean?</line> 
+		<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='1'>I got you, I used only 25 percent of my power, You thought you can beat me with only one year of training.</line> 
+		<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>No way, you are that strong.</line> 
+		<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='1'>The level of CubeeRun Tournament is widely higher than your training.</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='1'>I thought my training would finish within one or two years.</line> 
+		<line id='10' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>You are way behind, don’t be hasty. Last year when I started your training, I didn’t know u gonna progress so fast.</line> 
+		<line id='11' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>So, Why I would not be strong enough.</line> 
+		<line id='12' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>That true you progress fast but you are way behind.</line> 
+		<line id='13' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>I can at least  try.</line> 
+		<line id='14' Name='IronCubee' NameID='SkinBOSS03' Animation='1'>Next year level won’t be enough to reach CubeeRun Tournament.
+If luckily you succeed, you will be released during the eliminator.</line>
+		<nextdialog>2</nextdialog>
+		</dialog>
+		
+		
+		<dialog id='2' type="normal" font="Sheet22" music="music">
+		<line id='1' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>CubeeRun Tournament is that hard?!</line> 
+		<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>Many CubeeRunner who have just begun think they will win the CubeeRun Tournament... Then they get soundly beaten... Most of them surrender this sport.</line> 
+		<line id='3' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>I knew there was many strong Cubee but not at  this point.</line> 
+		<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>You got too fast. Know that CubeeYellowTwo even with his power he still not participate to CubeeRun Tournament. He is training for five years.</line> 
+		<line id='5' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>Why he doesn't participate, he is not strong enough?</line> 
+		<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='2'>He had the level to participate but if he participates he won’t be the winner. Even using the maximum of his power.</line> 
+		<line id='7' Name='CubeeRed' NameID='SkinJoueur10' Animation='3'>I am impressed!!</line> 
+		<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>You still have a long way to go, you can do better, you have not yet discovered all your capacity.</line> 
+		<line id='9' Name='CubeeRed' NameID='SkinJoueur10' Animation='0'>As soon as I reveal all my potential, I will show to the world my real power, and everyone would look me with fresh eyes.</line> 
+		<line id='10' Name='IronCubee' NameID='SkinBOSS03' Animation='0'>I saw a great future on you, you will probably exceed me one day, I will do anything to bar the way.</line> 
+		<nextdialog>3</nextdialog>
+		</dialog>
+			
+		<dialog id='3' font="Sheet23" type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+			
+			
+			
+		</part>
+		</Act5>
+
+		<Act6>
+			<part id='0'>
+			<characters></characters>			
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet13">This was the last time CubeeRed revived his father, He disappeared  on the way leading CubeeRun Tourna ment, search was made, but no one finds him.</line> 
+			<line id='2' font="Sheet13">His body was not found, IronCubee was alleged death. Everyone attend to burial of IronCubee.</line> 
+			<line id='3' font="Sheet13">In the bottom of his heart CubeeRed, want to know what really happened and maybe he is not dead.</line>
+			<line id='4' font="Sheet17">CubeeRed, Took the oath to discover the end of this story . He continue his training to become stronger and find the secret of his power.</line>
+			<line id='5' font="Sheet14">He is not alone, others disciple are as determined, new user among students appeared and CubeeYellowTwo started to use his power, A rivalry between CubeeYellowTwo and CubeeGreenTwo creates.</line>
+			<line id='6' font="Sheet15">They are not alone, CubeeYellowOne has develop his power too.</line>
+			<line id='7' font="Sheet16">Even CubeePink without power remains determined, their will does not weaken.
+Saw others using their power make them hot boiling. </line>
+			<nextdialog>2</nextdialog>
+			</dialog>
+				
+				
+				
+		<dialog id='2' font='Sheet18' type="end">
+		<!-- the dialog block of type "end". 
+		Simply blank, but required nonetheless in our logic and implementation -->
+		</dialog>
+			
+				
+				
+			</part>
+		</Act6>
+		
+	</chapter0>
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	<chapter1>
+
+		<Act0.5>
+			<part id='0'>
+			<characters>SkinBOSS03,SkinJoueur10</characters>
+			
+				<dialog id='1' type="narratif" music="music">
+				<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+				<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+				<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+		<nextdialog>2</nextdialog>
+				</dialog>
+				
+				<dialog id='2' type="narratif" music="music">
+				<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+				<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+				<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+				<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+				<nextdialog>3</nextdialog>
+				</dialog>
+				
+				<dialog id='3' type="normal" font="Sheet7" music="music">
+				<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+				<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+				<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+				<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+				<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+				<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+				<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+				<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+				<nextdialog>4</nextdialog>
+				</dialog>
+				
+				<dialog id='4' type="end">
+				<!-- the dialog block of type "end". 
+				Simply blank, but required nonetheless in our logic and implementation -->
+				</dialog>
+				
+				
+				
+			</part>
+		</Act0.5>
+		
+		<Act1>
+			<part id='0'>
+			<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+
+		</part>
+		
+			<part id='2'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+			
+			
+			
+		</part>
+		</Act1>
+
+		<Act2>
+		<part id='0'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+
+		</part>
+		
+		<part id='2'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+			
+			
+			
+		</part>
+		</Act2>
+
+		<Act3>
+		<part id='0'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+
+		</part>
+		
+		<part id='2'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+			
+			
+			
+		</part>
+		</Act3>
+
+		<Act4>
+		<part id='0'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+
+		</part>
+		
+		<part id='2'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+			
+			
+			
+		</part>
+		</Act4>
+
+		<Act5>
+		<part id='0'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+
+		</part>
+		
+		<part id='2'>
+		<characters>SkinBOSS03,SkinJoueur10</characters>
+		
+			<dialog id='1' type="narratif" music="music">
+			<line id='1' font="Sheet1">IL y a fort longtemps , une espèce nomme les Cubee vivait paisiblement sur leur planète. Tout était très calme mais on y voyait bien qu’il manque quelque chose.</line> 
+			<line id='2' font="Sheet2">Les Cubee S’ennuyer à mourir et rien ne se passe, Il n’arrivé pas a s'amuser. Il était sans doute destiné à s’ennuyer pour l'éternité</line> 
+			<line id='3' font="Sheet3">mais un jour , une énergie provenant d’une météorite tomba sur leur planète…  A votre avis qu’il l’a envoyé ici , je vous laisse l'imaginer ...
+Les Cubee était fasciné par cette energy , Il la l’appela la CubeeEnergy en référence à leur espèce…
+Grâce à la CubeeEnergy Il sont maintenant dotés de pouvoir.. Mais les cubee ne savait pas en quoi cette énergie aller leur aider à vaincre leur ennuie.</line>
+	<nextdialog>2</nextdialog>
+			</dialog>
+			
+			<dialog id='2' type="narratif" music="music">
+			<line id='1' font="Sheet4">Un jour , deux jeune cubee jouer et s'affronte dans un duel de course..
+C’est alors que l’un eu l'idée de reproduire leur duel a grand echelle..
+C’est ainsi que le CubeeRunning apparut.. Peu à peut des millier de cubee pratique ce sport..</line> 
+			<line id='2' font="Sheet5">10 ans plus tard fut organisé le premier CubeeRun Tournament..
+Depuis ce jours , un dictons entra dans les mémoire de tous.
+“Si tu t'ennuie tu peut toujour courir.”</line> 
+			<line id='3' font="Sheet5">Un CubeeRunner parviendra à dominer le CubeeRun Tournament,
+Et cela plusieur fois de suite, il est le plus fort de tous , Il est apparu lors de la 558eme CubeeRun Tournament… 
+Il se fait appeler IronCubee due à son armure qu’il porte sur lui.. Son armure n’a subi aucune égratignure… IronCubee est entrer dans l’histoire du CubeeRunning…</line> 
+			<line id='4' font="Sheet6">Mais ce n’est pas son histoir que je vais vous raconter… Je vais vous raconter l'aventure de son fils CubeeRed…</line> 
+
+			<nextdialog>3</nextdialog>
+			</dialog>
+			
+			<dialog id='3' type="normal" font="Sheet7" music="music">
+			<line id='1' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'> PaPa, ta dernière victoire fut magnifique… Comment tu fait pour être aussi Rapide…</line> 
+			<line id='2' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Le secret de ma puissance ne peut être révéler d’un claquement doigts il faut l’avoir mérité...</line>
+			<line id='3' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>C’est d'accord , je relève ton défis un jours je deviendrait aussi fort que toi…</line> 
+			<line id='4' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Bien dit mon fils… Mais avant d’y arriver tu a un très long chemin à parcourir …</line> 
+			<line id='5' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>J’attendrai le temps qu’il faut…</line> 
+			<line id='6' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>Est tu bien après ton entrainement sera dur, et tu aura parfois l’envie d'abandonner mais on commence tu ne pourra plus retourner en arrière…</line> 
+			<line id='7' Name='YongCubeeRed' NameID='SkinJoueur10' Animation='Normal'>Je dois être courrageux… Quuand commence t -on ?</line> 
+			<line id='8' Name='IronCubee' NameID='SkinBOSS03' Animation='Normal'>en t’attend demain à l’aube soit à l’heure. Et surtout avant de partir tu va devoir convaincre ta mère…</line> 
+			<nextdialog>4</nextdialog>
+			</dialog>
+			
+			<dialog id='4' type="end">
+			<!-- the dialog block of type "end". 
+			Simply blank, but required nonetheless in our logic and implementation -->
+			</dialog>
+			
+			
+			
+		</part>
+		</Act5>
+
+	</chapter1>
+
+</Story>
